@@ -21,4 +21,5 @@ int main(int argc, const char *argv[])
                               480,
                               0
                               );
+    renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
 }
