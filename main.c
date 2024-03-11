@@ -3,12 +3,12 @@
 #include <stdio.h> //stdio api
 
 
-
+//Operators
 void doSomethingWithOperators()
 {
-    int x = 2, y = 5;
+    int x = 5, y = 2;
 
-    x += y;
+    x = 0;
 
     printf("Result is: %d\n", x);
 }
