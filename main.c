@@ -8,7 +8,26 @@ void doSomethingWithOperators()
 {
     int x = 5, y = 2;
 
-    x = 0;
+    x = 5;
+    x = x + y;
+    y = x - y;
+    x = x * 5;
+    y = x / 5;
+
+    x += y;
+    x *= y;
+    x/= 5;
+    x-= y;
+
+    x = 5;
+    int z = x++;
+    x = 5;
+    z = ++x;
+
+    x = x - 1;
+    x--;
+
+
 
     printf("Result is: %d\n", x);
 }
