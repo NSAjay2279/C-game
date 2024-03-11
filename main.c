@@ -29,7 +29,7 @@ void doSomethingWithOperators()
 
     x = 1;
     x = !x;
-    printf("x is %d\n", x)
+    printf("x is %d\n", x);
 
     //? :
 
