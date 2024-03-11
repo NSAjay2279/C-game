@@ -13,6 +13,9 @@ void explainVariables()
     //floating point (decimals)
     float w = 1.5f;     //4 byte
     double q = 1.50000000000000000000001;     //8 byte
+    float w2;
+
+    w = 3.0f;
 }
 
 int main(int argc, const char *argv[])
