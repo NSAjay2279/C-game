@@ -1,9 +1,11 @@
 // main.c
 
-#include <stdio.h>
+#include <stdio.h> //stdio api
 
-void
-int main()
+void explainVariables()
+{=}
+
+int main(int argc, const char *argv[])
 {
     explainVariables();
     return 0;
