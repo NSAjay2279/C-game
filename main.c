@@ -14,10 +14,10 @@ int main(int argc, const char *argv[])
 {
     printf("*** Welcome to my damn program!  ***\n");
 
-    int x = 2;
+    short x = 2;
     x = halveIt(x);
 
-    printf")
+    printf("the value of x is: %i", x);
 
     return 0;
 }
