@@ -10,4 +10,9 @@ typedef struct
 
 
 int main(int argc, const char *argv[])
-{}
+{
+    SDL_Window *window;
+    SDL_Renderer *renderer;
+
+    
+}
