@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-int doubleIt(int number)
+short doubleIt(short number)
 {
     rerurn number*2;
 }
 
-int halveIt(int number)
+short halveIt(short number)
 {
     return number/2;
 }
