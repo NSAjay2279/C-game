@@ -27,6 +27,11 @@ void doSomethingWithOperators()
     x = x - 1;
     x--;
 
+    x = 1;
+    x = !x;
+    printf("x is %d\n", x)
+
+    //? :
 
 
     printf("Result is: %d\n", x);
@@ -39,7 +44,7 @@ int main(int argc, const char *argv[])
     doSomethingWithOperators();
 
     //Wait for user to hit enter before quitting
-    getchar();
+    //getchar();
 
     return 0;
 }
