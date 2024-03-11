@@ -1,24 +1,19 @@
 #include <stdio.h>
 
-short doubleIt(short array[])
+short halveIt(short number[])
 {
-
-    return array[0] / 2;
-}
-
-short halveIt(short number)
-{
-    return number/2;
+    number[0] = 3;
+    return number[1];
 }
 
 int main(int argc, const char *argv[])
 {
-    printf("*** Welcome to my damn program!  ***\n");
+    printf("*** Welcome to my damn program! ***\n");
 
-    short array[0] = {2};
+    short array[1] = {2};
     array[0] = halveIt(array);
 
-    printf("the value of x is: %hd", x);
+    printf("the value of array[0] is: %hd", array[0]);
 
     return 0;
 }
