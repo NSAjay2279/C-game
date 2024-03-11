@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-short doubleIt(short number)
+short doubleIt(short array[])
 {
-    return number*2;
+
+    return array[0] / 2;
 }
 
 short halveIt(short number)
@@ -14,8 +15,8 @@ int main(int argc, const char *argv[])
 {
     printf("*** Welcome to my damn program!  ***\n");
 
-    short x = 2;
-    x = halveIt(x);
+    short array[0] = {2};
+    array[0] = halveIt(array);
 
     printf("the value of x is: %hd", x);
 
