@@ -21,7 +21,7 @@ void explainVariables()
     float w2;
     w = 3.0f;
 
-    char *str = "phrases of characters... banana";
+    const char *str = "phrases of characters... banana";
 }
 
 void doSomething2()
