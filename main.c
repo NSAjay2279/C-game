@@ -2,7 +2,7 @@
 
 short doubleIt(short number)
 {
-    rerurn number*2;
+    return number*2;
 }
 
 short halveIt(short number)
@@ -17,7 +17,7 @@ int main(int argc, const char *argv[])
     short x = 2;
     x = halveIt(x);
 
-    printf("the value of x is: %i", x);
+    printf("the value of x is: %hd", x);
 
     return 0;
 }
