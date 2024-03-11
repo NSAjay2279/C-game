@@ -33,5 +33,9 @@ int main(int argc, const char *argv[])
     SDL_RenderFillRect(renderer, &rect);
 
     SDL_RenderPresent(renderer);
-    
+
+    SDL_Delay(2000);
+
+    SDL_DestroyWindow(window);
+
 }
